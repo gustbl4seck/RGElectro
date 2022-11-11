@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./img 2.0/brazil-.ico">
+    <title>site de filmes | funny filmes </title>
+</head>
+<body>
+    <!-- aula 27/09/2022-->
+    <!-- inicio do meu repositorio -->
+    <header id="header">
+         <a id="logo" href="index.html"><img src="./img/logotipo-filmes-e-series.png" alt="logo funny filmes"></a> 
+        <nav id="nav">
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"> 
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="limkmenu" href="index.html">home | </a></li>
+                <li><a class="limkmenu" href="streaming.html">streaming | </a></li>
+                <li><a class="limkmenu" href="filmes.html">filmes | </a></li>
+                <li><a class="limkmenu" href="contato.html">contato | </a></li>
+                <li><a class="limkmenu" href=recomendações.html">recomendações | </a></li>
+                <li><a class="linkmenu" href="chat.html">chat</a></li>
+            </ul>
+         </nav>
+    </header>
+    <!-- fim do menu responsivo -->  
+            <!--inicio form contato-->
+       <div class="destaque">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+               <!--inicio da tag section com texto de contato-->
+               <section class="col-12">
+                <h2>entre em contato conosco!</h2>
+                 <p>para duvidas,elogios e reclamações!</p>
+               </section>
+
+               <!--fim da tag secton com texto de contato-->
+               <!--inici formulario-->
+          <div class="col-md-4">
+              <div class="form_main">
+                  <h4 class="heading"><strong>Contato</strong><strong>express     </strong></h4>
+                 <div class="form">
+                    <form action="#" method="post" id="contactfrm" name="contactfrm">
+                        <input type="text" required="" placeholder="por favor insira o nome completo" value="" name="name" class="txt">                
+                        <input type="text" required="" placeholder="por favor insira o seu Telefone" value="" name="name" class="txt">                
+                        <input type="text" required="" placeholder="por favor insira o seu email" value="" name="name" class="txt">   
+                        
+                        <textarea placeholder="insira sua imagem" name="mass" type="text" cols="30" rows="10"></textarea>
+                        <input type="submit" value="submit" name="submit" class="txt2">
+                     <form>
+                  </div>
+                 </div>
+               </div>
+               <!--fim formulario-->
+                      
+                    <!-- início footer-->
+                    <footer class="rodape">
+                      <div class="container">
+                          <div class="row m-0">
+                              <!-- início do logo-->
+                               <div class="col-md-4">
+                                   <figure>
+                                       <img src="img/senai_small.jpg" alt="logo-rodape" width="40%">
+                                   </figure>
+                               </div>
+                             <!-- fim do logo-->
+                               
+                               <!-- início do texto-->
+                               <div class="col-md-4">
+                                   <div class="info-contato">
+                                       <p>email:</p>
+                                       <p>example@corp.net</p><br>
+                                       <p>Endereço:</p>
+                                       <p>Avenida ABC, 123</p><br>
+                                       <p>Telefone:</p>
+                                       <p>+55 (15) 9.9999-1234</p>
+                                   </div>
+                               </div>
+                               <!-- fim do texto-->
+                               <!-- início das mídias sociais-->
+                               <div class="col-md-4">
+                                   <figure class="redes-sociais">
+                                       <!-- alt + shift + seta para baixo (copia)-->
+                                       <!-- ctrl + space (mostra caminho da pasta) dentro de SRC-->
+                                       
+                                       <a href="#"><img src="img/face.png"></a>
+                                       <a href="#"><img src="img/insta.png"></a>
+                                       <a href="#"><img src="img/youtube.png"></a>
+                                       <a href="#"><img src="img/linkedin.png"></a>
+                                   </figure>
+                                   <br>
+                                   <a href="#">Jogos</a><br>
+                                   <a href="#">Hardware</a><br>
+                                   <a href="#">Celulares</a><br>
+                                   <a href="#">PC Gamer</a><br>
+                                   <a href="#">Contato</a><br>
+                                   <a href="#">Login</a><br>
+                               </div>
+                               <!-- fim das mídias sociais-->
+                               <!-- início dos direitos autorais-->
+                               <div class="col-12">
+                                   <p class="direitos">Direitos Autorais</p>
+                               </div>
+                               <!-- fim dos direitos autorais-->
+                          </div>
+                      </div>
+                  </footer>
+                  <!-- fim do texto da galeria-->
+               </div>
+           </div>
+       </div> 
+</body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js" ></script>
+
+</html> 
