@@ -7,13 +7,14 @@ a {
    color: black;
    text-decoration: none;
    font-family: sans-serif; 
+   margin-right: 200px;
 }
 #header #menu a:hover {
     background: rgba(0, 0, 0, 0.05); 
 }
 #logo img {
     float: left;
-    height: 150px;
+    height: 160px;
     position: relative;
     top: 5px;
     left: 10px;
@@ -24,16 +25,18 @@ a {
     position: relative; /* Adicionando Position e Z-Index */
     z-index: 90;
     box-sizing: border-box;
-    height: 85px;
+    height: 120px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#ab1dd6 ;
 }
 #menu {
     display: flex;
     list-style: none;
     gap: 0.5rem;
+    margin-left: -1225px;
 }
 #btn-mobile {
     display: none;
@@ -42,7 +45,7 @@ a {
     position: relative;
     z-index: 10;
     gap: 0.5rem;
-    padding-top: 85px;
+    padding-top: 5px;
 }
 #carouselExampleInterval img {
     height: 800px;
@@ -74,7 +77,7 @@ a {
         visibility: visible;
         overflow-y: hidden; 
     }
-    #btn-mobile {
+     #btn-mobile {
         display: flex;
         padding: 0.5rem 1rem;
         font-size: 1rem;
@@ -143,7 +146,7 @@ a {
     background-color: #ab1dd6;
 }
 .section-banner-home img {
-    height: 400px;
+    height: 500px;
 }
 .section-banner-home .texto-banner {
     margin-top: 30px;
@@ -195,6 +198,7 @@ a {
     font-size: 10;
     font-weight: bold;
     height: 225px;
+    width: 100%;
 }
 /*fim do css destaque*/
 /*inicio css novidades*/
@@ -223,6 +227,7 @@ a {
 
 .novidades img {
     height: 500px;
+    margin-right:60px ;
     
 } 
 /*fim css novidades*/
