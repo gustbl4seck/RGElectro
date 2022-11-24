@@ -13,15 +13,21 @@
 <body>
     <!-- aula 27/09/2022-->
     <!-- inicio do meu repositorio -->
-    <header id="header"> 
-      <nav id="nav">                
-           <ul id="menu" role="menu">
-               <li><a class="linkMenu"href="index.html"> Home </a></li>
-               <li><a class="linkMenu"href="Streaming.html"> Streaming </a></li>
-               <li><a class="linkMenu"href="Contato.html"> Contato </a></li>
-          </ul>
-       </nav>
-      </header>
+    <header id="header">
+      <a id="logo" href="index.html">
+     <nav id="nav">
+         <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"> 
+           <span id="hamburger"></span>
+         </button>
+         <ul id="menu" role="menu">
+           <li><a class="limkmenu" href="index.html"> - home </a></li>
+           <li><a class="limkmenu" href="streaming.html"> Streaming </a></li>
+           <li><a class="limkmenu" href="contato.html">contato - </a></li>
+
+
+         </ul>
+      </nav>
+ </header>
     <!-- fim do menu responsivo --> 
      
     <!--inincio do carrossel página principal-->
@@ -163,9 +169,9 @@
             </section>
           </div>
           <!--fim texto novidades-->
-          
+                          
           <!--inicio imagem novidades-->
-          <div class="col-md-6">
+          <div class="col-6 col-md-6">
             <figure>
                  <img src="./img 2.0/img glr logo.png" class="img-fluid" alt="banner-home">
             </figure>        
@@ -174,6 +180,71 @@
         </div>
       </div>
     </div>
+ <!--Inicio Galeria-->
+ <div class="galeria d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+  <!--inicio texto galerias--> 
+    <div class="col-12">
+      <section class="texto-galeria">
+        <h2>conheça nossa galeria</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptate soluta! Provident libero est architecto consequuntur, corporis doloribus autem aut rem quo, asperiores nihil? Ipsa voluptas doloremque repellendus perferendis a.</p>
+      </section>
+    </div>
+  <!--fim do texto galerias-->
+  <!--inicio imagem 1 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/iphone 1.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 1 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 2 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/iphone 2.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 2 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 3 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/iphone 3.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 3 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 4 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/ipad 1.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 4 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 5 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/ipad 2.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 5 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 6 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/ipad 3.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 6 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 7 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/mac 1.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 7 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 8 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/mac 2.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 8 da galeria -->
+  <!--fim do texto galerias-->
+  <!--inicio imagem 9 galerias-->
+  <div class="gallery col-6 col-md-6">
+    <img src="./img 3.0/mac 3.png" class="img-fluid" alt="img-galeria">
+  </div>
+  <!--fim imagem 9 da galeria -->
                   <!-- início footer-->
                     <footer class="rodape">
                       <div class="container">
@@ -228,5 +299,6 @@
 </body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js" ></script>
+    <script src="./js/mostrarmenu.js"></script>
 
 </html>
